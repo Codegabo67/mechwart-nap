@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mechwart-Nap 2026 – december 8. Programok, idővonal és tudnivalók egy helyen.">
+<title>Mechwart-Nap 2026 | Programok és tudnivalók</title>
+<style>
+:root{--blue:#174ed6;--ink:#15243e;--muted:#596a83;--light:#eef4ff;--line:#dce4f1;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{color:inherit}button{font:inherit}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:3px solid #e09b16;outline-offset:5px}.wrap{width:min(1100px,calc(100% - 48px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{text-decoration:none;font-weight:850;letter-spacing:-.04em;font-size:22px}.brand span{color:var(--blue)}nav{display:flex;gap:28px}nav a{text-decoration:none;font-size:14px;font-weight:650;color:var(--muted)}nav a:hover,nav a[aria-current]{color:var(--blue)}.menu{display:none;border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 14px}
+section{padding:88px 0}.cover{background:var(--light);padding:88px 0 72px}.cover-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:60px;align-items:center}.eyebrow{color:var(--blue);font-size:12px;letter-spacing:.16em;font-weight:800;text-transform:uppercase;margin:0 0 20px}h1{font-size:clamp(44px,6vw,76px);line-height:1.04;letter-spacing:-.055em;margin:0 0 28px}h1 span{color:var(--blue)}h2{font-size:clamp(30px,4vw,42px);line-height:1.15;letter-spacing:-.035em;margin:0 0 20px}h3{font-size:22px;line-height:1.3;margin:0 0 12px;letter-spacing:-.02em}p{margin:0 0 16px}.lead{font-size:19px;color:var(--muted);max-width:640px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.button{display:inline-block;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:700;background:var(--blue);color:#fff;border:1px solid var(--blue)}.button.secondary{color:var(--blue);background:transparent}.ticket{background:var(--blue);color:#fff;border-radius:18px;padding:32px;transform:rotate(2deg);box-shadow:0 16px 40px #174ed625}.ticket small{letter-spacing:.15em;font-weight:700}.ticket .day{font-size:100px;font-weight:850;line-height:1.2;letter-spacing:-.06em}.ticket .month{font-size:25px;font-weight:650}.ticket .bottom{border-top:1px dashed #ffffff70;margin-top:24px;padding-top:20px;display:flex;justify-content:space-between;gap:20px}.intro{max-width:660px;color:var(--muted)}.overview{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}.overview article{padding:26px;border:1px solid var(--line);border-radius:12px}.number{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.1em;margin-bottom:20px}.overview p,.event p,.info p{color:var(--muted)}
+.schedule{background:#f8faff}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:28px 0}.filter{padding:8px 16px;border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:30px;cursor:pointer;font-size:14px;font-weight:650}.filter[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}.timeline{border-left:2px solid var(--line);margin-left:10px;padding-left:34px}.event{position:relative;background:#fff;border:1px solid var(--line);padding:28px;border-radius:12px;margin-bottom:24px}.event:before{content:"";position:absolute;left:-43px;top:34px;width:14px;height:14px;border:4px solid #f8faff;border-radius:50%;background:var(--blue)}.time{color:var(--blue);font-size:14px;font-weight:800;margin-bottom:12px}.place{font-size:12px;font-weight:750;text-transform:uppercase;letter-spacing:.06em;color:var(--blue)!important}.tag{display:inline-block;font-size:11px;padding:3px 9px;background:var(--light);color:var(--blue);border-radius:5px;vertical-align:middle;margin-left:8px}.parallel{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}.program-card{border:1px solid var(--line);padding:20px;border-radius:8px;background:#fafcff}.program-card h4{font-size:18px;margin:0 0 10px}.program-card p:last-child,.event>p:last-child{margin-bottom:0}.talks{border-top:1px solid var(--line);margin-top:24px}.talk{display:grid;grid-template-columns:75px 1fr;gap:20px;padding:22px 0;border-bottom:1px solid var(--line)}.talk:last-child{border-bottom:0;padding-bottom:0}.room{font-size:25px;font-weight:800;color:var(--blue)}.room small{display:block;font-size:10px;letter-spacing:.08em}.talk h4{margin:0 0 8px;font-size:18px}.talk p{margin:0}.finale{background:var(--light);border-color:#bdcff8}.info{display:grid;grid-template-columns:1fr 1.4fr;gap:64px}.faq{border-top:1px solid var(--line)}details{border-bottom:1px solid var(--line);padding:20px 0}summary{font-weight:700;cursor:pointer}details p{margin:14px 0 0}.notice{padding:20px 24px;background:var(--light);border-radius:10px;font-size:14px;margin-top:30px}.foot{padding:30px 0;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.foot .wrap{display:flex;justify-content:space-between;gap:20px}.foot a{text-decoration:none}.hidden,[hidden]{display:none!important}
+@media(max-width:800px){section{padding:60px 0}.cover{padding:60px 0}.cover-grid{grid-template-columns:1fr;gap:36px}.ticket{transform:none;max-width:440px}.ticket .day{font-size:72px}.overview{grid-template-columns:1fr}.info{grid-template-columns:1fr;gap:24px}.section-head{display:block}.parallel{grid-template-columns:1fr}}
+@media(max-width:540px){.wrap{width:calc(100% - 32px)}.nav{min-height:68px;flex-wrap:wrap;gap:0;padding:14px 0}.menu{display:block}nav{display:none;flex-direction:column;width:100%;gap:0;padding-top:14px}nav.open{display:flex}nav a{padding:12px 0;border-top:1px solid var(--line)}h1{font-size:48px}.lead{font-size:17px}.timeline{padding-left:22px;margin-left:4px}.event{padding:20px}.event:before{left:-31px}.talk{grid-template-columns:48px 1fr;gap:12px}.room{font-size:22px}.tag{margin:6px 0 0;display:table}.foot .wrap{flex-direction:column;gap:8px}.ticket{padding:26px}.buttons .button{text-align:center;flex:1}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{header,.filters,.buttons,.foot{display:none}section,.cover{padding:24px 0}.wrap{width:100%}.cover-grid{grid-template-columns:1fr 1fr}.event{break-inside:avoid}.hidden{display:block!important}.ticket{box-shadow:none;transform:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#kezdolap" aria-label="Mechwart-Nap kezdőlap">mechwart<span>nap.</span></a>
+<button class="menu" type="button" aria-expanded="false" aria-controls="navigation">Menü</button>
+<nav id="navigation" aria-label="Fő navigáció"><a href="#kezdolap">Kezdőlap</a><a href="#programok">Programok</a><a href="#menetrend">Menetrend</a><a href="#tudnivalok">Tudnivalók</a></nav>
+</div></header>
+<main>
+<section class="cover" id="kezdolap"><div class="wrap cover-grid"><div>
+<p class="eyebrow">Mechwart-Nap 2026 / December 8.</p>
+<h1>Egy délelőtt.<br><span>Ez a mi napunk.</span></h1>
+<p class="lead">Lépj ki a hétköznapokból! E-sport, sport, izgalmas előadások és közös kihívások várnak a Mechwart-Napon.</p>
+<div class="buttons"><a class="button" href="#menetrend">Megnézem a menetrendet</a><a class="button secondary" href="#tudnivalok">Fontos tudnivalók</a></div>
+</div><aside class="ticket" aria-label="Az esemény időpontja"><small>TALÁLKOZUNK KEDDEN</small><div class="day">08.</div><div class="month">december / 2026</div><div class="bottom"><strong>08:00–12:00</strong><span>Mechwart-Nap</span></div></aside></div></section>
+<section id="programok"><div class="wrap"><p class="eyebrow">Találd meg a saját programod</p><h2>Nem csak egyféleképp lehetsz benne.</h2><p class="intro">Versenyezz, fedezz fel valami újat, vagy szurkolj a többieknek! A párhuzamos programok között te választasz.</p>
+<div class="overview"><article><div class="number">01 / JÁTÉK</div><h3>E-sport & gaming</h3><p>CS2, Valorant, LoL és FIFA. Csapatok, izgalmas meccsek és bajnoki hangulat.</p></article><article><div class="number">02 / MOZGÁS</div><h3>Sport & kihívások</h3><p>Foci, kosárlabda és Mechwart Ninja Warrior. Mutasd meg, mire vagy képes!</p></article><article><div class="number">03 / INSPIRÁCIÓ</div><h3>Mechwart Talk</h3><p>Robotika, diákprojektek, karrier, kiberbiztonság és játékfejlesztés öt teremben.</p></article></div>
+</div></section>
+<section class="schedule" id="menetrend"><div class="wrap">
+<div class="section-head"><div><p class="eyebrow">08:00-tól 12:00-ig</p><h2>A nap menetrendje</h2></div><p class="intro">A közös kezdéstől a tombolasorsolásig.</p></div>
+<div class="filters" role="group" aria-label="Menetrend szűrése"><button class="filter" data-filter="all" aria-pressed="true">Teljes nap</button><button class="filter" data-filter="morning" aria-pressed="false">Délelőtti programok</button><button class="filter" data-filter="community" aria-pressed="false">Közös programok</button></div>
+<p id="filter-status" class="place" role="status" aria-live="polite"></p>
+<div class="timeline">
+<article class="event" data-category="morning community"><div class="time">08:00–08:15</div><h3>Ünnepélyes megnyitó</h3><p class="place">Tornaterem</p><p>A nap hivatalos megnyitója, a csapatok köszöntése és a programok rövid felvezetése, hogy mindenki máris hangulatba jöjjön.</p></article>
+<article class="event" data-category="morning"><div class="time">08:30–10:15</div><h3>Párhuzamos programok <span class="tag">Válassz programot!</span></h3><p>Itt megoszlik a társaság: válassz bajnokságot vagy egy számodra érdekes előadást.</p>
+<div class="parallel"><div class="program-card"><h4>E-sport & gaming bajnokság</h4><p class="place">Selejtezők</p><p><strong>CS2:</strong> CNC1<br><strong>Valorant:</strong> CNC2<br><strong>LoL:</strong> Hidraulika<br><strong>FIFA:</strong> 58-as terem</p><p>További elérhető terem: CAD1.</p></div><div class="program-card"><h4>Sportbajnokságok</h4><p class="place">Foci / Kosárlabda</p><p><strong>Foci:</strong> külső köves pálya<br><strong>Kosárlabda:</strong> tornaterem</p><p>3 a 3 elleni kosárlabda és labdarúgó-mérkőzések az osztályok csapatai között.</p></div></div>
+<h3>Mechwart Talk — előadások & showcase</h3>
+<div class="talks">
+<div class="talk"><div class="room">09<small>TEREM</small></div><div><h4>Robotika, CAD & CNC</h4><p>A gépész-infó találkozása: robotprogramozás, CAD-tervből fizikai alkatrész, Ipar 4.0, 3D nyomtatás és automatizálás.</p></div></div>
+<div class="talk"><div class="room">19<small>TEREM</small></div><div><h4>Diák projekt showcase</h4><p>Tehetséges mechwartosok mutatják be saját weboldalaikat, appjaikat, játékaikat és egyedi elektronikai kütyüiket.</p></div></div>
+<div class="talk"><div class="room">24<small>TEREM</small></div><div><h4>Karrier & öregdiákok</h4><p>Hová tovább a Mechwart után? Korábbi diákok, szoftverfejlesztők, mérnökök és vállalkozók mesélnek az indulásról.</p></div></div>
+<div class="talk"><div class="room">26<small>TEREM</small></div><div><h4>Kiberbiztonság & etikus hacking</h4><p>Hogyan védekezzünk a hackerek ellen? Gyakori online veszélyek és a titkosítás működése a gyakorlatban.</p></div></div>
+<div class="talk"><div class="room">25<small>TEREM</small></div><div><h4>Játékfejlesztés & hardvertitkok</h4><p>Hogyan épül fel egy videojáték? Unity, Unreal és minden, amire egy erős gamer gép összeállításakor figyelni kell.</p></div></div>
+</div></article>
+<article class="event" data-category="morning community"><div class="time">10:15–10:45</div><h3>Büfészünet & szabadidő</h3><p>Egy kis feltöltődés, beszélgetés és pihenés a közös kihívások előtt.</p></article>
+<article class="event" data-category="community"><div class="time">10:45–11:15</div><h3>Mechwart Ninja Warrior & ügyességi versenyek</h3><p class="place">Köves pálya / Tornaterem</p><p>Vicces, látványos sorversenyek, fekvőtámasz- és húzódzkodó-kihívások a gyors dicsőségért.</p></article>
+<article class="event" data-category="community"><div class="time">11:25–11:35</div><h3>Iskolai kvíz / Kahoot</h3><p class="place">Tornacsarnok</p><p>Gyors, pörgős tudáspróba a suliról, popkultúráról és egyebekről.</p></article>
+<article class="event finale" data-category="community"><div class="time">11:40–12:00</div><h3>Tombolasorsolás & zárás</h3><p class="place">Földszinti aula / Központi helyszín</p><p>A nap csúcspontja: közös izgalmak és tombolasorsolás a délelőtt lezárásaként.</p></article>
+</div></div></section>
+<section id="tudnivalok"><div class="wrap info"><div><p class="eyebrow">Mielőtt elindulsz</p><h2>Fontos tudnivalók</h2><p>A legfontosabb időpontok és helyszínek, hogy könnyen megtervezhesd a délelőttödet.</p><div class="notice">A jelentkezés, a felszerelés és a tombolarészvétel pontos feltételeiről az esemény szervezőinél érdeklődj.</div></div>
+<div class="faq">
+<details open><summary>Mikor kezdődik és meddig tart?</summary><p>2026. december 8-án, kedden 08:00–12:00 között. A közös megnyitó 08:00-kor kezdődik a tornateremben.</p></details>
+<details><summary>Hogyan működnek a párhuzamos programok?</summary><p>08:30 és 10:15 között egyszerre zajlanak az e-sport- és sportbajnokságok, valamint a Mechwart Talk előadásai. Válaszd ki az érdeklődésednek megfelelő programot és helyszínt.</p></details>
+<details><summary>Hol találom az előadásokat?</summary><p>A Mechwart Talk programjai a 9-es, 19-es, 24-es, 26-os és 25-ös teremben lesznek. A menetrendben minden témánál megtalálod a hozzá tartozó termet.</p></details>
+<details><summary>Mikor lesz szünet?</summary><p>A büfészünet és szabadidő 10:15-től 10:45-ig tart.</p></details>
+<details><summary>Hol lesz a tombolasorsolás?</summary><p>11:40 és 12:00 között a földszinti aulában, a központi helyszínen.</p></details>
+</div></div></section>
+</main>
+<footer class="foot"><div class="wrap"><strong>Mechwart-Nap 2026 · December 8.</strong><a href="#kezdolap">Vissza az oldal tetejére</a></div></footer>
+<script>
+const menu = document.querySelector(".menu");
+const nav = document.querySelector("#navigation");
+menu.addEventListener("click", () => {
+ const expanded = menu.getAttribute("aria-expanded") === "true";
+ menu.setAttribute("aria-expanded", String(!expanded));
+ nav.classList.toggle("open", !expanded);
+});
+nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+ menu.setAttribute("aria-expanded", "false");
+ nav.classList.remove("open");
+}));
+const filters = document.querySelectorAll(".filter");
+const events = document.querySelectorAll(".event");
+filters.forEach(button => button.addEventListener("click", () => {
+ const filter = button.dataset.filter;
+ filters.forEach(item => item.setAttribute("aria-pressed", String(item === button)));
+ let count = 0;
+ events.forEach(event => {
+  const visible = filter === "all" || event.dataset.category.split(" ").includes(filter);
+  event.hidden = !visible;
+  if (visible) count++;
+ });
+ document.querySelector("#filter-status").textContent = count + " programblokk látható";
+}));
+if ("IntersectionObserver" in window) {
+ const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+   if (!entry.isIntersecting) return;
+   nav.querySelectorAll("a").forEach(link => {
+    if (link.hash === "#" + entry.target.id) link.setAttribute("aria-current", "location");
+    else link.removeAttribute("aria-current");
+   });
+  });
+ }, {rootMargin:"-15% 0px -55% 0px",threshold:0});
+ document.querySelectorAll("main > section").forEach(section => observer.observe(section));
+}
+</script>
+</body>
+</html>
